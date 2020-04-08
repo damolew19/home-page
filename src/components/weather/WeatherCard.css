@@ -1,0 +1,48 @@
+.card {
+	float: right;
+	text-align: center;
+	color: #eeefff;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 100;
+	padding: 4px 10px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	z-index: 99;
+}
+
+.box img {
+	margin-top: 4px;
+	height: 40px;
+	width: 40px;
+	z-index: 999;
+}
+
+.box p {
+	font-size: 32px;
+	margin: 0;
+	z-index: 999;
+}
+
+.card h4 {
+	position: relative;
+	font-size: 16px;
+	margin: 0;
+	z-index: 1000;
+}
+
+.moreWeather {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 75px;
+	right: 15px;
+	background-color: rgba(0, 0, 0, .8);
+	border-radius: 10%;
+	opacity: 0;
+}

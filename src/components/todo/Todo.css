@@ -1,0 +1,31 @@
+.todo {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.todoBox {
+	position: absolute;
+	display: block;
+	width: 250px;
+	height: 250px;
+	background-color: rgba(1, 1, 1, 0.9);
+	border-radius: 10%;
+	opacity: 0;
+	transition: opacity 0.5s;
+	right: 15px;
+	bottom: 45px;
+	z-index: 4;
+}
+
+.notWorking {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	letter-spacing: 1rem;
+	font-size: 1.5rem;
+}

@@ -1,0 +1,26 @@
+.leftSide {
+	width: 30%;
+	border-right-style: solid;
+	border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+.optionsBox {
+	margin-left: 20%;	
+	margin-top: 30%;
+	font-family: Helvetica;
+	font-size: 16px; 
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+}
+
+.options {
+	padding-bottom: 10px
+}
+
+.options:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}

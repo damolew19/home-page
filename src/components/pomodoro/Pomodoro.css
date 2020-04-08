@@ -1,0 +1,112 @@
+.pomoIcon {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	transition: all .2s; 
+	cursor: pointer;
+	left: 10px;
+	top: 10px;
+}
+
+
+.pomoBox {
+	position: absolute;
+	display: none;
+	top: 35px;
+	left: 25px;
+	width: 250px;
+	height: 300px;
+	background-color: rgba(1, 1, 1, 0.8);
+	border-radius: 10%;
+	opacity: 0;
+	transition: opacity 0.5s;
+	z-index: 4;
+}
+
+.pomoTopSection {
+	position: relative;
+	height: 10%;
+}
+
+.pomoTopSection img {
+	height: 24px;
+	width: 24px;
+	transition: all 0.5s;
+}
+
+.moreIcon {
+	position: relative;
+	float: left;
+	top: 15px;
+	left: 15px;
+}
+
+.fullScreenIcon {
+	position: relative;
+	float: right;
+	top: 15px;
+	right: 15px;
+}
+
+.pomoMiddleSection {
+	position: relative;
+	height: 70%;
+}
+
+.countDownRing {
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fff;
+	background-color: rgba(1, 1, 1, 0);
+}
+
+.countDown {
+	position: absolute;
+	font-family: 'arial';
+	font-weight: 100;
+	font-size: 36px;
+	z-index: 4;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+.pomoBottomSection {
+	height: 20%;
+	position: relative;
+}
+
+
+.pomoButtonBox {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%);
+}
+
+.pomoButton {
+	height: 30px;
+	width: 60px;
+	background-color: rgba(1, 1, 1, 0);
+	font-family: 'arial';
+	font-weight: lighter;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10%;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+	cursor: pointer;
+}
+
+.pomoButton:hover {
+	opacity: 0.5;
+}

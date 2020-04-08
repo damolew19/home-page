@@ -1,0 +1,59 @@
+.widgetContainer {
+	display: block;
+	text-align: center;
+	margin: 0;
+	height: 120px;
+}
+
+.quoteBox {
+	display: block;
+	position: absolute;
+	width: 100%;
+	border-style: none;
+	bottom: 10px;
+}
+
+.quoteBox:hover .author {
+	opacity: 0.9;
+	transform: translateY(-5px);
+}
+
+.quoteBox:hover .quote {
+	transform: translateY(-5px);
+}
+
+.quote, .author {
+	position: relative;
+	font-size: 20px;
+	top: 5px;
+	text-align: center;
+	
+}
+
+.quote {
+	transform: translateY(15px);
+	transition: all .4s; 
+
+}
+
+.author {
+	text-align: center;
+	opacity: 0;
+	bottom: 25px;
+	transition: all 0.4s ease;
+	transform: translateY(-20px);	
+}
+
+#wikiIcon {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 3px;
+	padding-left: 3px;
+}
+
+#wikiIcon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+

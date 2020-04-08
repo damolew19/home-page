@@ -1,0 +1,145 @@
+.rightSide {
+	width: 70%;
+}
+
+.general {
+  display: block;
+}
+
+.backgrounds {
+  display: none;
+}
+
+.quotes {
+  display: none;
+}
+
+
+
+.selectedOptions {
+  position: relative;
+	margin-left: 10%;
+	margin-right: 2%;
+	color: rgba(255, 255, 255, 0.95);
+	font-family: Helvetica;
+  height: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow-y: scroll;
+}
+
+.selectedOptions::-webkit-scrollbar-track
+{
+  height: 50%;
+} 
+
+.selectedOptions::-webkit-scrollbar
+{
+  width: 12px;
+}
+
+.selectedOptions::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.optionsHeading {
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.optionsHeading h1 {
+	margin-bottom: 0;
+}
+
+.optionsHeading p {
+	margin-top: 0; 
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.selectedOptionsItem {
+	padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+
+/*switch*/
+
+.toggleSwitch {
+	position: relative;
+  	display: inline-block;
+	float: right;
+	height: 25px;
+	width: 40px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.toggleSwitch input{
+	opacity: 0;
+	width: 0;
+	height: 0;
+
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  bottom: 2px;
+  left: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+
+input.checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input.checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+.toggleOptions {
+  position: relative;
+  display: inline-block;
+  float: right;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  padding-top: 4px;
+}
+
+#hr24 {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#hr12 {
+  opacity: 0.5;
+  cursor: pointer;
+}

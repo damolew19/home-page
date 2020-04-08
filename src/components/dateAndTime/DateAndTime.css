@@ -1,0 +1,20 @@
+.time {
+	font-size: 6rem;
+	display: flex;
+	justify-content: center;
+}
+
+.date {
+	font-size: 6rem;
+	display: none;
+	justify-content: center;
+}
+
+.hours12 {
+	display: none;
+}
+
+.dayName, .monthName, .day {
+	padding-right: 1.5rem;
+}
+

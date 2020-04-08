@@ -1,0 +1,60 @@
+*{
+	transition: opacity 0.5s;
+}
+
+div {
+	display: block;
+}
+/*Front page layout*/
+
+.topLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.topRight {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.bottomLeft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.bottom {
+	position: absolute;
+	width: 50%;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/*Component Contianers*/
+
+
+.grow:hover {
+	transform: scale(1.1);
+}
+
+.show {
+	opacity: 1 !important;
+}
